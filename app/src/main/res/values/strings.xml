@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ChocoTvQues</string>
+
+    <!--main page-->
+    <string name="main_search_hint">請輸入文字</string>
+    <string name="main_search_button_text">搜尋</string>
+
+    <!--item drama information-->
+    <string name="item_drama_rating_title">評分：%1$s</string>
+    <string name="item_drama_create_at_title">出版日期：%1$s</string>
+
+    <string name="item_drama_total_views">觀看次數：%1$d</string>
+</resources>

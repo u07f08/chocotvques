@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingEnd="5dp"
+    android:paddingStart="5dp"
+    android:paddingTop="5dp">
+
+    <ImageView
+        android:id="@+id/item_drama_thumb"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="fitStart"/>
+
+    <TextView
+        android:id="@+id/item_drama_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/item_drama_thumb"
+        android:textSize="26sp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/item_drama_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_drama_name"
+        android:layout_toEndOf="@id/item_drama_thumb"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorDarkGray"/>
+
+    <TextView
+        android:id="@+id/item_drama_created_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_drama_rating"
+        android:layout_toEndOf="@id/item_drama_thumb"
+        android:textSize="20sp"
+        android:textColor="@color/colorDarkGray"/>
+
+</RelativeLayout>
